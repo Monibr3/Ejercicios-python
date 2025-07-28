@@ -1,3 +1,6 @@
+# Programa que pide introducir una lista de números separados por comas
+# y devuelve un anlisis donde indica los que son pares, impares, positivos y negativos
+# y también cual es mayor y menor junto con la media
 numeros =[]
 entrada = input('Introduce números separados por coma:')
 numeros = [ int(n.strip()) for n in entrada.split(",")]
@@ -25,6 +28,6 @@ for m in numeros:
     if m< menor:
         menor = m
 media = suma/total
-print("\n🔍 Resultados del análisis:")
+print("\nResultados del análisis:")
 print(f'Números introducidos: {numeros}')
 print(f'Pares: {par}\nImpares: {impar}\nPositivos: {pos}\nNegativos: {neg}\nMedia: {media}\nMayor: {mayor}\nMenor: {menor}')
