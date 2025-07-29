@@ -1,1 +1,0 @@
-print(f'Pares: {par}\nImpare
