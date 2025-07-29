@@ -28,6 +28,7 @@ for m in numeros:
     if m< menor:
         menor = m
 media = suma/total
-print("\nResultados del análisis:")
+
+print("\n Resultados del análisis:")
 print(f'Números introducidos: {numeros}')
 print(f'Pares: {par}\nImpares: {impar}\nPositivos: {pos}\nNegativos: {neg}\nMedia: {media}\nMayor: {mayor}\nMenor: {menor}')
