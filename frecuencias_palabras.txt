@@ -1,0 +1,18 @@
+==============================
+Nuevo análisis realizado el 2025-07-30 12:47:20
+==============================
+Texto analizado:
+veo que , ya se no 8 vamos " veo ha
+
+Número total de palabras válidas: 8
+
+Frecuencia de cada palabra (de mayor a menor):
+veo: 2
+que: 1
+ya: 1
+se: 1
+no: 1
+vamos: 1
+ha: 1
+
+
