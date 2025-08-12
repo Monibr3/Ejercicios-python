@@ -1,27 +1,3 @@
-# Simulador de Cajero Automático - Nivel Intermedio-Alto
-# ------------------------------------------------------
-# Este programa simula el funcionamiento de un cajero automático realista,
-# utilizando una base de datos para gestionar múltiples cuentas bancarias.
-#
-# El usuario debe autenticarse con su número de cuenta y un PIN, que se solicita
-# de forma segura usando la librería 'getpass' para ocultar la entrada del PIN en pantalla.
-# Se permiten hasta 3 intentos fallidos antes de denegar el acceso.
-#
-# Una vez autenticado, el usuario puede:
-#   1. Consultar su saldo actual.
-#   2. Retirar dinero, siempre que tenga saldo suficiente.
-#   3. Ingresar dinero en su cuenta.
-#   4. Consulatar transacciones
-#   5. Salir del sistema.
-#
-# El programa actualiza en tiempo real los saldos en la base de datos para mantener
-# la integridad y persistencia de los datos.
-#
-# Además, incluye manejo de errores para evitar que entradas inválidas (como letras
-# en lugar de números) causen fallos inesperados en la ejecución.
-#
-# La gestión de cuentas, operaciones y conexión con la base de datos se realiza
-# mediante una clase especializada, lo que facilita la escalabilidad y mantenimiento.
 import getpass   # Para introducir el PIN sin mostrarlo en pantalla
 import sqlite3
 import Gestión_de_cuentas_bancarias as gb  # Módulo con clases CuentaBancaria y BaseDatos
