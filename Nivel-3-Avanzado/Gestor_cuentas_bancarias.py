@@ -24,8 +24,9 @@ con la lógica de cuentas y persistencia en SQLite.
 Nota: El programa es similar al de cajero_avanzado pero mejor extructurado
 
 """
+import getpass
 
-from Gestión_de_cuentas_bancarias import CuentaBancaria, BaseDatos  # Cambia 'tu_modulo' por el nombre real de tu archivo
+from Gestion_de_cuentas_bancarias import CuentaBancaria, BaseDatos  # Cambia 'tu_modulo' por el nombre real de tu archivo
 
 def pedir_pin():
     """
@@ -33,7 +34,7 @@ def pedir_pin():
     Un PIN válido es una cadena de 4 dígitos numéricos.
     """
     while True:
-        pin = input("Introduce un PIN de 4 dígitos: ")
+        pin = getpass.getpass("Introduce un PIN de 4 dígitos: ")
         if pin.isdigit() and len(pin) == 4:
             return pin
         else:

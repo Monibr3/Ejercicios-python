@@ -24,7 +24,7 @@
 # mediante una clase especializada, lo que facilita la escalabilidad y mantenimiento.
 import getpass   # Para introducir el PIN sin mostrarlo en pantalla
 import sqlite3
-import Gestión_de_cuentas_bancarias as gb  # Módulo con clases CuentaBancaria y BaseDatos
+import Gestion_de_cuentas_bancarias as gb  # Módulo con clases CuentaBancaria y BaseDatos
 
 # Creamos instancia para trabajar con la base de datos
 base_datos = gb.BaseDatos()
