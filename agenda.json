@@ -1,0 +1,11 @@
+[
+    {
+        "id_contacto": "1",
+        "nombre": "Mar\u00eda",
+        "telefono": "123456565",
+        "direccion": "cami\u00f1o",
+        "correo": "alfa@gmail.com",
+        "notas": "buenas",
+        "favorito": true
+    }
+]
